@@ -113,7 +113,7 @@
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
-                </a>
+                </a>;
               </span>
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2307.11418"
@@ -165,12 +165,19 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <img src="./static/images/fig_1_15-1.png"
+           class="main figure"
+           alt="main figure"/>
+      <h2 class="subtitle has-text-centered">
+        We propose <b>FaceCLIPNeRF</b>, a text-driven facial expression manpulation pipeline given a few examples of facial deformations observed from casually-captured monocular video.
+      </h2>
+      
       <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/demo_hstack.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <b>FaceCLIPNeRF</b> reconstructs a video of a dynamic scene of a face, and conducts face manipulation using texts only.
+        <b>FaceCLIPNeRF</b> can manipulate to emotions, which requires subtle deformations on all facial parts for sophisticated expressions. We achieve such manipulation using textual-guidance only.
       </h2>
     </div>
   </div>
